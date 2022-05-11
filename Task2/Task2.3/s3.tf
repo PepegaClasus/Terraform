@@ -1,4 +1,4 @@
-# S3 bucket for website.
+
 resource "aws_s3_bucket" "bucket" {
   bucket = "www.${var.bucket_name}"
   acl = "private"

@@ -1,5 +1,5 @@
 #CodePipeline
-resource "aws_codepipeline" "static_web_pipeline" {
+resource "aws_codepipeline" "code_pipeline" {
   name     = "static-web-pipeline"
   role_arn = "arn:aws:iam::571653323309:role/service-role/pipelinerole"
   tags     = {
